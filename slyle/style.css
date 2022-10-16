@@ -1,0 +1,172 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+} */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+margin: 13px auto 15px;
+}
+
+.header-ul{
+    display: flex;
+    gap: 62px;
+}
+
+.header-nav{
+
+}
+
+.header-li{
+
+}
+
+.header-link{
+    height: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.header-link:hover{
+    font-weight: 700;
+    color: #d34983;
+    transition: 300ms;
+     cursor: pointer;
+}
+
+.button{
+width: 157px;
+Height: 40px; 
+border-radius: 20px;
+border: none;
+background: #6F2CFF;
+
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+.button:hover{
+    background: #d34983;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+/* hero */
+
+.hero{
+    background: #F6BED9;
+    padding: 58px 0 59px;
+
+}
+
+.hero-title{
+font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.13;
+    color: #000000;
+    max-width: 470px;
+}
+
+.hero-title-violet{
+    color: #6F2DFF;
+
+}
+
+.hero-text {
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    color: #000000;
+    max-width: 438px;
+    margin: 18px 0;
+}
+
+.hero-text-bold{
+font-weight: 700;
+}
+
+.hero-input{
+    height: 45px;
+    width: 268px;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px;
+    padding-left: 26px;
+}
+
+.hero-input::placeholder{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.hero-input:hover{
+    outline: none;
+}
+
+.hero-button {
+width: 187px;
+height: 45px;
+margin-left: 9px;
+}
+
+/* footer */
+
+.footer{
+    background: #20003C;
+    padding: 67px 0 68px;
+}
+
+.footer-nav{
+
+}
+
+.footer-li{
+}
+
+.footer-link{
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 1.30;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #d34983;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.footer-ul{
+    display: flex;
+    gap: 74px;
+}
